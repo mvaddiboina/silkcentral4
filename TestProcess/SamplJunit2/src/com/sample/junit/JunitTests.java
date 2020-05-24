@@ -21,9 +21,7 @@ public class JunitTests {
 		System.out.println(System.getProperty("#sctm_source_root_dir"));
 		String userDir = System.getProperty("user.dir");
 		System.out.println(userDir);
-		String robotPath = "D:\\temp\\Main.xaml";
-		System.out.println(robotPath);
-		String filePath = "D:\\temp\\ProcessBat\\process.bat"+robotPath;
+		String filePath = "D:\\temp\\ProcessBat\\process.bat";
 		System.out.println(filePath);
 		Runtime.getRuntime().exec(filePath);
 		Thread.sleep(1000*60*1);
