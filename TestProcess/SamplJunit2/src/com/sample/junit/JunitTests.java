@@ -14,8 +14,8 @@ import jxl.read.biff.BiffException;
 
 public class JunitTests {
 	
-	@BeforeClass
-	public static void generateReport() throws IOException, InterruptedException
+	@Test
+	public void generateReport() throws IOException, InterruptedException
 	{
 		String userDir = System.getProperty("user.dir");
 		String robotPath = userDir.replace("SamplJunit2", "")+"Main.xaml";
