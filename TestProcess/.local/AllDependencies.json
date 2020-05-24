@@ -1729,9 +1729,9 @@
     "restore": {
       "projectUniqueName": "TestProcess",
       "projectName": "TestProcess",
-      "projectPath": "C:\\Users\\user\\Documents\\UiPath\\TestProcess\\.local",
+      "projectPath": "C:\\Users\\user\\Documents\\UiPath\\silkcentral4\\TestProcess\\.local",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\UiPath\\TestProcess\\.local"
+      "outputPath": "C:\\Users\\user\\Documents\\UiPath\\silkcentral4\\TestProcess\\.local"
     },
     "frameworks": {
       "net461": {

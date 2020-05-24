@@ -12,7 +12,7 @@ public class ParseExcelReport {
 	public static String testStatus(String testCaseId) throws BiffException, IOException {
 		String status = "";
 		String userDir = System.getProperty("user.dir");
-		String filePath = userDir.replace("SamplJunit2", "")+"Reports\\TestReport.xls";
+		String filePath = userDir.replace("SamplJunit2", "")+"\\Reports\\TestReport.xls";
 		System.out.println(filePath);
 		FileInputStream fs = new FileInputStream(filePath);
 		Workbook wb = Workbook.getWorkbook(fs);
