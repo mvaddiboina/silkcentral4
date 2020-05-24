@@ -17,12 +17,14 @@ public class JunitTests {
 	@Test
 	public  void generateReport() throws IOException, InterruptedException
 	{
+		
+		System.out.println(System.getProperty("ctm_source_root_dir"));
 		String userDir = System.getProperty("user.dir");
-		System.out.print(userDir);
+		System.out.println(userDir);
 		String robotPath = userDir.replace("SamplJunit2", "")+"\\Main.xaml";
-		System.out.print(robotPath);
+		System.out.println(robotPath);
 		String filePath = userDir.replace("SamplJunit2", "")+"\\ProcessBat\\process.bat "+robotPath;
-		System.out.print(filePath);
+		System.out.println(filePath);
 		Runtime.getRuntime().exec(filePath);
 		Thread.sleep(1000*60*1);
 	}
