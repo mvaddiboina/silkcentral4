@@ -19,9 +19,9 @@ public class JunitTests {
 	{
 		String userDir = System.getProperty("user.dir");
 		System.out.print(userDir);
-		String robotPath = userDir.replace("SamplJunit2", "")+"Main.xaml";
+		String robotPath = userDir.replace("SamplJunit2", "")+"\\Main.xaml";
 		System.out.print(robotPath);
-		String filePath = userDir.replace("SamplJunit2", "")+"ProcessBat\\process.bat "+robotPath;
+		String filePath = userDir.replace("SamplJunit2", "")+"\\ProcessBat\\process.bat "+robotPath;
 		System.out.print(filePath);
 		Runtime.getRuntime().exec(filePath);
 		Thread.sleep(1000*60*1);
