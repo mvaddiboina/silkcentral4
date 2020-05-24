@@ -18,7 +18,7 @@ public class JunitTests {
 	public  void generateReport() throws IOException, InterruptedException
 	{
 		
-		System.out.println(System.getProperty("ctm_source_root_dir"));
+		System.out.println(System.getProperty("#sctm_source_root_dir"));
 		String userDir = System.getProperty("user.dir");
 		System.out.println(userDir);
 		String robotPath = userDir.replace("SamplJunit2", "")+"\\Main.xaml";
