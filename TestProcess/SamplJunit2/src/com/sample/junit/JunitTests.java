@@ -35,5 +35,11 @@ public class JunitTests {
     public void TC002() throws BiffException, IOException{  
 		assertEquals("PASS",ParseExcelReport.testStatus("TC2"));  
    
-    }  
+    } 
+	
+	@Test  
+    public void TC003() throws BiffException, IOException{  
+		assertEquals("PASS",ParseExcelReport.testStatus("TC2"));  
+   
+    } 
 }
